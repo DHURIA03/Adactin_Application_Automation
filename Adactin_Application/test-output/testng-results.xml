@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-28T16:53:16Z" name="Default suite" finished-at="2023-11-28T16:56:10Z" duration-ms="174628">
+    <groups>
+    </groups>
+    <test started-at="2023-11-28T16:53:16Z" name="Default test" finished-at="2023-11-28T16:56:10Z" duration-ms="174628">
+      <class name="com.adactin.testcases.TC002_SearchHotel">
+        <test-method signature="TC002()[pri:0, instance:com.adactin.testcases.TC002_SearchHotel@732d0d24]" started-at="2023-11-28T22:23:45Z" name="TC002" finished-at="2023-11-28T22:24:18Z" duration-ms="33379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002 -->
+      </class> <!-- com.adactin.testcases.TC002_SearchHotel -->
+      <class name="com.adactin.testcases.TC003_Print_Dropdown_Location_Values">
+        <test-method signature="TC003()[pri:0, instance:com.adactin.testcases.TC003_Print_Dropdown_Location_Values@4416d64f]" started-at="2023-11-28T22:24:18Z" name="TC003" finished-at="2023-11-28T22:24:53Z" duration-ms="34201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003 -->
+      </class> <!-- com.adactin.testcases.TC003_Print_Dropdown_Location_Values -->
+      <class name="com.adactin.testcases.TC005_Book_Hotel">
+        <test-method signature="TC005()[pri:0, instance:com.adactin.testcases.TC005_Book_Hotel@5e3d57c7]" started-at="2023-11-28T22:25:32Z" name="TC005" finished-at="2023-11-28T22:26:10Z" duration-ms="38082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005 -->
+      </class> <!-- com.adactin.testcases.TC005_Book_Hotel -->
+      <class name="com.adactin.testcases.TC004_Select_Hotel">
+        <test-method signature="TC004()[pri:0, instance:com.adactin.testcases.TC004_Select_Hotel@5c45d770]" started-at="2023-11-28T22:24:53Z" name="TC004" finished-at="2023-11-28T22:25:32Z" duration-ms="39697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004 -->
+      </class> <!-- com.adactin.testcases.TC004_Select_Hotel -->
+      <class name="com.adactin.testcases.TC001_Login">
+        <test-method signature="TC001()[pri:0, instance:com.adactin.testcases.TC001_Login@6bf08014]" started-at="2023-11-28T22:23:16Z" name="TC001" finished-at="2023-11-28T22:23:45Z" duration-ms="29245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+      </class> <!-- com.adactin.testcases.TC001_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
