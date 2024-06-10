@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ShoppingCart_EndToEnd]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="ECommerse_Regression(failed)" verbose="0">
+    <classes>
+      <class name="com.shoppingcart.testscripts.TC003_PlacedOrder">
+        <methods>
+          <include name="TC003_placedOrder" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.shoppingcart.testscripts.TC003_PlacedOrder -->
+    </classes>
+  </test> <!-- ECommerse_Regression(failed) -->
+</suite> <!-- Failed suite [ShoppingCart_EndToEnd] -->

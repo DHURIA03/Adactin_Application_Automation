@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ShoppingCart_EndToEnd" class="navigator-link">
+              <span class="suite-name border-failed">ShoppingCart_EndToEnd</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ShoppingCart_EndToEnd" class="navigator-link ">
+                    <span>C:\Users\Ashish\eclipse-workspace\seleniumFrameworkDesign\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ShoppingCart_EndToEnd" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ShoppingCart_EndToEnd" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ShoppingCart_EndToEnd" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ShoppingCart_EndToEnd" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ShoppingCart_EndToEnd" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ShoppingCart_EndToEnd" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ShoppingCart_EndToEnd" class="hide-methods failed suite-ShoppingCart_EndToEnd"> (hide)</a> <!-- hide-methods failed suite-ShoppingCart_EndToEnd -->
+                      <a href="#" panel-name="suite-ShoppingCart_EndToEnd" class="show-methods failed suite-ShoppingCart_EndToEnd"> (show)</a> <!-- show-methods failed suite-ShoppingCart_EndToEnd -->
+                    </span>
+                    <div class="method-list-content failed suite-ShoppingCart_EndToEnd">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ShoppingCart_EndToEnd" title="com.shoppingcart.testscripts.TC003_PlacedOrder" class="method navigator-link" hash-for-method="TC003_placedOrder(Ashish@gamil.com, Ashish@123, IPHONE 13 PRO)">TC003_placedOrder(Ashish@gamil.com, Ashish@123, IPHONE 13 PRO)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ShoppingCart_EndToEnd" title="com.shoppingcart.testscripts.TC003_PlacedOrder" class="method navigator-link" hash-for-method="TC003_placedOrder(author@gamil.com, Ashish@123, ADIDAS ORIGINAL)">TC003_placedOrder(author@gamil.com, Ashish@123, ADIDAS ORIGINAL)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ShoppingCart_EndToEnd -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ShoppingCart_EndToEnd" class="hide-methods passed suite-ShoppingCart_EndToEnd"> (hide)</a> <!-- hide-methods passed suite-ShoppingCart_EndToEnd -->
+                      <a href="#" panel-name="suite-ShoppingCart_EndToEnd" class="show-methods passed suite-ShoppingCart_EndToEnd"> (show)</a> <!-- show-methods passed suite-ShoppingCart_EndToEnd -->
+                    </span>
+                    <div class="method-list-content passed suite-ShoppingCart_EndToEnd">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ShoppingCart_EndToEnd" title="com.shoppingcart.testscripts.TC001_IncorrectLogin" class="method navigator-link" hash-for-method="TC001_InvalidLogin">TC001_InvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ShoppingCart_EndToEnd" title="com.shoppingcart.testscripts.TC002_ValidLogin" class="method navigator-link" hash-for-method="TC001_InvalidLogin">TC001_InvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ShoppingCart_EndToEnd -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ShoppingCart_EndToEnd" class="panel ShoppingCart_EndToEnd">
+          <div class="suite-ShoppingCart_EndToEnd-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.shoppingcart.testscripts.TC003_PlacedOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC003_placedOrder(Ashish@gamil.com, Ashish@123, IPHONE 13 PRO)">
+                  </a> <!-- TC003_placedOrder(Ashish@gamil.com, Ashish@123, IPHONE 13 PRO) -->
+                  <span class="method-name">TC003_placedOrder</span>
+                  <span class="parameters">(Ashish@gamil.com,Ashish@123,IPHONE 13 PRO)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (943, 653)
+  (Session info: chrome=123.0.6312.86)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ade0205f4c619db0b882522ef7af0406, clickElement {id=f.29943068E81636DB7B4EE639F88F45F5.d.C242452B4990642F0DCBB7F428A0C3B3.e.141}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50553}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50553/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ade0205f4c619db0b882522ef7af0406)] -&gt; css selector: .action__submit]
+Session ID: ade0205f4c619db0b882522ef7af0406
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.shoppingcart.pages.checkoutPage.PlaceOrder(checkoutPage.java:27)
+	at com.shoppingcart.testscripts.TC003_PlacedOrder.TC003_placedOrder(TC003_PlacedOrder.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC003_placedOrder(author@gamil.com, Ashish@123, ADIDAS ORIGINAL)">
+                  </a> <!-- TC003_placedOrder(author@gamil.com, Ashish@123, ADIDAS ORIGINAL) -->
+                  <span class="method-name">TC003_placedOrder</span>
+                  <span class="parameters">(author@gamil.com,Ashish@123,ADIDAS ORIGINAL)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (943, 651)
+  (Session info: chrome=123.0.6312.86)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4cac9d7ef1360aa82a20a4db5f94e452, clickElement {id=f.4E8F1DBF1157AEFFABF2584E753ED715.d.47F21DC8F27F457B17F146A4F16568DD.e.136}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50577}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50577/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4cac9d7ef1360aa82a20a4db5f94e452)] -&gt; css selector: .action__submit]
+Session ID: 4cac9d7ef1360aa82a20a4db5f94e452
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.shoppingcart.pages.checkoutPage.PlaceOrder(checkoutPage.java:27)
+	at com.shoppingcart.testscripts.TC003_PlacedOrder.TC003_placedOrder(TC003_PlacedOrder.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ShoppingCart_EndToEnd-class-failed -->
+          <div class="suite-ShoppingCart_EndToEnd-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.shoppingcart.testscripts.TC002_ValidLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC001_InvalidLogin">
+                  </a> <!-- TC001_InvalidLogin -->
+                  <span class="method-name">TC001_InvalidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ShoppingCart_EndToEnd-class-passed -->
+          <div class="suite-ShoppingCart_EndToEnd-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.shoppingcart.testscripts.TC001_IncorrectLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC001_InvalidLogin">
+                  </a> <!-- TC001_InvalidLogin -->
+                  <span class="method-name">TC001_InvalidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ShoppingCart_EndToEnd-class-passed -->
+        </div> <!-- panel ShoppingCart_EndToEnd -->
+        <div panel-name="test-xml-ShoppingCart_EndToEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ashish\eclipse-workspace\seleniumFrameworkDesign\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ShoppingCart_EndToEnd&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ECommerse_Regression&quot; verbose=&quot;0&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.shoppingcart.testscripts&quot;/&gt;
+      &lt;package name=&quot;mavenProject.seleniumFrameworkDesign&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.shoppingcart.testscripts.TC001_IncorrectLogin&quot;/&gt;
+      &lt;class name=&quot;com.shoppingcart.testscripts.TC002_ValidLogin&quot;/&gt;
+      &lt;class name=&quot;com.shoppingcart.testscripts.TC003_PlacedOrder&quot;/&gt;
+      &lt;class name=&quot;mavenProject.seleniumFrameworkDesign.AppTest&quot;/&gt;
+      &lt;class name=&quot;mavenProject.seleniumFrameworkDesign.endToEnd&quot;/&gt;
+      &lt;class name=&quot;mavenProject.seleniumFrameworkDesign.App&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ECommerse_Regression --&gt;
+&lt;/suite&gt; &lt;!-- ShoppingCart_EndToEnd --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ShoppingCart_EndToEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ShoppingCart_EndToEnd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ECommerse_Regression (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ShoppingCart_EndToEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ShoppingCart_EndToEnd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ShoppingCart_EndToEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ShoppingCart_EndToEnd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ShoppingCart_EndToEnd');
+function tableData_ShoppingCart_EndToEnd() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC003_placedOrder')
+data.setCell(0, 2, 'com.shoppingcart.testscripts.TC003_PlacedOrder')
+data.setCell(0, 3, 37036);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC001_InvalidLogin')
+data.setCell(1, 2, 'com.shoppingcart.testscripts.TC001_IncorrectLogin')
+data.setCell(1, 3, 26677);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC003_placedOrder')
+data.setCell(2, 2, 'com.shoppingcart.testscripts.TC003_PlacedOrder')
+data.setCell(2, 3, 20336);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC001_InvalidLogin')
+data.setCell(3, 2, 'com.shoppingcart.testscripts.TC002_ValidLogin')
+data.setCell(3, 3, 19544);
+window.suiteTableData['ShoppingCart_EndToEnd']= { tableData: data, tableDiv: 'times-div-ShoppingCart_EndToEnd'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-ShoppingCart_EndToEnd">
+              </div> <!-- times-div-ShoppingCart_EndToEnd -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ShoppingCart_EndToEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ShoppingCart_EndToEnd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ShoppingCart_EndToEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ShoppingCart_EndToEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.shoppingcart.testscripts.TC001_IncorrectLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC001_InvalidLogin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.shoppingcart.testscripts.TC002_ValidLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC001_InvalidLogin</span>
+                <span class="method-start">26693 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.shoppingcart.testscripts.TC003_PlacedOrder</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC003_placedOrder(Ashish@gamil.com, Ashish@123, IPHONE 13 PRO)</span>
+                <span class="method-start">46255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC003_placedOrder(author@gamil.com, Ashish@123, ADIDAS ORIGINAL)</span>
+                <span class="method-start">66604 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
